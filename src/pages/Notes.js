@@ -56,6 +56,8 @@ export default function Notes(props) {
     });
   }
   
+  
+
   async function handleSubmit(event) {
     let attachment;
   
@@ -86,6 +88,8 @@ export default function Notes(props) {
       setIsLoading(false);
     }
   }
+
+  
   function deleteNote() {
     return API.del("notes", `/notes/${props.match.params.id}`);
   }

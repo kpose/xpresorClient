@@ -1,4 +1,5 @@
 export default {
+    STRIPE_KEY: "pk_test_BhXUCxVlpmlv919LHcU8zOXt",
     MAX_ATTACHMENT_SIZE:5000000,
     s3: {
       REGION: "us-east-1",
@@ -14,4 +15,7 @@ export default {
       APP_CLIENT_ID: "56ii7g7hljkms03fa8urb0sd7p",
       IDENTITY_POOL_ID: "us-east-1:923b931b-4262-4a53-808b-bb05a8fecc86"
     }
+    
   };
+
+  
